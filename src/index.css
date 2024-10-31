@@ -3,40 +3,34 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'anzo1';
+    font-family: 'regular';
     src: url('../public/file.woff2');
 }
 
 @font-face {
-    font-family: 'anzo2';
-    src: url(../public//file1.woff2);
-}
-
-@font-face {
-    font-family: 'anzo3';
+    font-family: 'thin';
     src: url(../public//file2.woff2);
 }
 
 @font-face {
-    font-family: 'anzo4';
+    font-family: 'semibold';
     src: url(../public//file3.woff2);
 }
 
 @font-face {
-    font-family: 'anzo5';
+    font-family: 'bold';
     src: url(../public//file4.woff2);
 }
 
 @font-face {
     font-family: 'diff';
-    src: url(../public//file5.woff2);
+    src: url(../public/madefor-text.var.original.woff2);
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'anzo1';
 }
 
 html, body {
