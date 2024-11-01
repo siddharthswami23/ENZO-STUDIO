@@ -1,7 +1,12 @@
+import Header from "./components/Header"
+import Page1 from "./pages/Page1"
 
 const App = () => {
   return (
-    <h1 className="text-white text-5xl font-[diff]">ikmdszx</h1>
+    <>
+    <Header />
+    <Page1 />
+    </>
   )
 }
 
