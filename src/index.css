@@ -4,27 +4,27 @@
 
 @font-face {
     font-family: 'regular';
-    src: url('../public/file.woff2');
+    src: url('../file.woff2');
 }
 
 @font-face {
     font-family: 'thin';
-    src: url(../public//file2.woff2);
+    src: url("../file2.woff2");
 }
 
 @font-face {
     font-family: 'semibold';
-    src: url(../public//file3.woff2);
+    src: url("../file3.woff2");
 }
 
 @font-face {
     font-family: 'bold';
-    src: url(../public//file4.woff2);
+    src: url("../file4.woff2");
 }
 
 @font-face {
     font-family: 'diff';
-    src: url(../public/madefor-text.var.original.woff2);
+    src: url("../madefor-text.var.original.woff2");
 }
 
 * {
@@ -37,4 +37,8 @@ html, body {
     width: 100%;
     height: 100%;
     background-color: #111;
+}
+
+#tilt-in{
+    perspective: 1000px;
 }
