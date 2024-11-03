@@ -26,7 +26,7 @@ const Page1 = () => {
 
   useGSAP(() => {
     gsap.to(tiltRef.current, {
-      scale:1.015,
+      scale:1.15,
       rotateX: yVal,
       rotateY: xVal,
       duration: 5,
@@ -42,7 +42,6 @@ const Page1 = () => {
       <div className='shadow-xl shadow-gray-700 w-full h-full rounded-[50px] bg-center bg-cover bg-[url("https://static.wixstatic.com/media/f1c650_678c0ceab5194893872c60fa3be4bcdc~mv2.jpg/v1/fill/w_1865,h_913,fp_0.69_0.64,q_85,usm_0.66_1.00_0.01,enc_auto/ANZO.jpg")]'>
         <TiltText tiltRef={tiltRef} />
         <Page1Bottom />
-        
       </div>
     </div>
   );
