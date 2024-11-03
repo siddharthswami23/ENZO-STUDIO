@@ -26,10 +26,10 @@ const Page1 = () => {
 
   useGSAP(() => {
     gsap.to(tiltRef.current, {
-      scale:1.15,
+      scale:1.105,
       rotateX: yVal,
       rotateY: xVal,
-      duration: 5,
+      duration: 1,
       ease: "power4.out",
     });
   }, [xVal, yVal]); 
