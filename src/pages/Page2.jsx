@@ -44,7 +44,7 @@ const Page2 = () => {
         <h1 className="text-[42vw] tracking-loose text-black font-[regular] uppercase leading-[35vw]">works</h1>
       </div>
 
-      <img src="../public/image.png" alt="" />
+      <img src="../image.png" alt="" />
       <div className="w-1/4 border-[1px] mt-10 border-solid border-black mx-auto"></div>
     </div>
   );
